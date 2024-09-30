@@ -1,0 +1,52 @@
+.pagination-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-card {
+  width: 300px;
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.product-title {
+  width: 300px;
+  font: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-desc {
+  width: 300px;
+  font: lighter;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-price {
+  font: lighter;
+}
+
+.pages {
+  display: flex;
+  margin: 50px;
+  gap: 10px;
+  justify-content: center;
+}
+
+.each-page-no {
+  font: lighter;
+  cursor: pointer;
+  font-size: small;
+}
+
+.each-page-no-active {
+  font: bold;
+  text-decoration: underline;
+  font-size: large;
+}

@@ -1,0 +1,35 @@
+.image-slider-container {
+  position: relative;
+  width: 50%;
+  margin: auto;
+}
+
+.image-slider-container1 {
+  position: relative;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+.arrow {
+  top: 50%;
+  position: absolute;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+.left-arrow {
+  left: 10px;
+}
+
+.right-arrow {
+  right: 10px;
+}

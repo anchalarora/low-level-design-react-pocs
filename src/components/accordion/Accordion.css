@@ -1,0 +1,32 @@
+.accordion {
+  width: 50%;
+  margin: auto;
+}
+
+.accordion-container {
+  display: flex;
+  gap: 10px;
+  text-align: left;
+  padding: 20px;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.accordion-title {
+  font: "bold";
+  padding: 20px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ccc;
+  align-items: center;
+}
+
+.title-container img {
+  width: 20px;
+  height: 20px;
+  padding: 20px;
+}

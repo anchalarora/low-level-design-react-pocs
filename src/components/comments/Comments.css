@@ -1,0 +1,22 @@
+.comments-container {
+  width: 50%;
+  margin: auto;
+}
+
+.comment-box-container {
+  padding-left: 10px;
+}
+
+.comment-box-container img {
+  width: 70px;
+  height: 70px;
+}
+
+.comment-box {
+  display: flex;
+}
+
+.comment-replies-container {
+  padding-left: 20px;
+  border-left: 2px solid #ccc;
+}

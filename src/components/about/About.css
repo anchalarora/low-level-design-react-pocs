@@ -1,0 +1,41 @@
+/* General Container for About Page */
+.about-container {
+  max-width: 800px;
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px;
+  text-align: left; /* Ensure content is left-aligned */
+  font-family: Arial, sans-serif; /* Change the font for readability */
+}
+
+/* Title Styling */
+.about-container h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+
+/* Subtitle and Section Headers */
+.about-container h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 10px;
+  border-left: 4px solid #4caf50; /* Add a green accent line to the left */
+  padding-left: 10px;
+}
+
+/* Paragraph Text */
+.about-container p {
+  font-size: 18px;
+  line-height: 1.6; /* Improves readability with better line spacing */
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Spacing for Different Sections */
+.about-container .section {
+  margin-bottom: 40px; /* Add space between sections */
+}

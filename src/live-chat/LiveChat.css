@@ -1,0 +1,81 @@
+.live-chat-container {
+  display: flex;
+  margin: 12px;
+}
+
+.chat-window {
+  height: 600px;
+  width: 800px;
+  margin-left: 12px;
+  border: 1px solid #ccc;
+  overflow-y: auto;
+
+  /* Flex properties for column and reverse behavior */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-top: 20px;
+}
+/* 
+  .chat-message-container {
+    display: flex;
+    padding: 10px;
+  }
+  
+  .message-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+  }
+  
+  .user-image {
+    width: 80px;
+    height: 80px;
+  } */
+
+.chat-message-container {
+  display: flex;
+  align-items: center; /* Aligns image and message text vertically */
+  padding: 12px;
+  border-bottom: 1px solid #e0e0e0; /* Adds a subtle divider between messages */
+  background-color: #f9f9f9; /* Soft background color for message box */
+  border-radius: 8px; /* Rounded corners for the message container */
+  margin-bottom: 10px; /* Adds spacing between message blocks */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.chat-message-container:hover {
+  background-color: #f1f1f1; /* Slightly darker background on hover */
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 16px;
+  flex-grow: 1; /* Ensures the message text takes up the remaining space */
+}
+
+.message-container p:first-child {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+.message-container p:last-child {
+  color: #555; /* Lighter color for the message text */
+  word-wrap: break-word; /* Ensure long messages wrap */
+}
+
+.user-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; /* Circular avatar */
+  border: 2px solid #ddd; /* Border around the avatar */
+}
+
+.chat-input-box {
+  display: flex;
+  gap: 10px;
+  margin: 12px;
+  width: 780px;
+}

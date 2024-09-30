@@ -1,0 +1,62 @@
+.body-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 100px;
+}
+
+.meme-card {
+  width: 300px; /* Adjust the width of each card */
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.meme-title {
+  white-space: nowrap; /* Prevents text from wrapping */
+  overflow: hidden; /* Ensures the overflowed content is not shown */
+  text-overflow: ellipsis; /* Adds the ellipsis when text is truncated */
+  width: 300px; /* Define a width where the ellipsis would start */
+}
+
+.meme-card img {
+  border-radius: 8px;
+  width: 100%; /* Makes the image take the full width of the card */
+  height: 400px; /* Maintains the aspect ratio */
+  display: block; /* Ensures the image behaves as a block element */
+  object-fit: cover; /* Ensures the image covers the container proportionally */
+}
+
+.shimmer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.shimmer-title,
+.shimmer-author,
+.shimmer-img {
+  background: #e0e0e0;
+  border-radius: 8px;
+  height: 400px;
+}
+
+.shimmer-title {
+  width: 60%;
+  height: 24px;
+}
+
+.shimmer-author {
+  width: 40%;
+  height: 16px;
+}
+
+.shimmer-img {
+  width: 100%;
+  height: 400px;
+}
