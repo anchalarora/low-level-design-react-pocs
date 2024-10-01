@@ -11,7 +11,7 @@ import Accordion from "./components/accordion/Accordion";
 import Comments from "./components/comments/Comments";
 import ImageSlider from "./components/image-slider/ImageSlider";
 import Pagination from "./components/pagination/Pagination";
-import LiveChat from "./live-chat/LiveChat";
+import LiveChat from "./components/live-chat/LiveChat";
 import ConfigDrivenForm from "./components/config-driven-ui/ConfigDrivenForm";
 
 // shimmer ui => loading atate while making an api call.
