@@ -1,0 +1,25 @@
+/* ThemedComponent.css */
+.themed-container {
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.9s ease, color 0.9s ease; /* Optional smooth transition */
+}
+
+.themed-container.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.themed-container.dark {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.toggle-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+}
