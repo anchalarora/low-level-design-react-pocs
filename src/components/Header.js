@@ -14,6 +14,7 @@ const Header = ({ lang, setLang }) => {
       <a href="/live-chat">Live Chat</a>
       <a href="/config-driven-ui">Config Driven UI</a>
       <a href="/login">Login</a>
+      <a href="/theme">Theme</a>
       <select value={lang} onChange={handleOnChange}>
         <option value="en">English</option>
         <option value="hi">Hindi</option>

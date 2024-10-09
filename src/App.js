@@ -13,6 +13,7 @@ import ImageSlider from "./components/image-slider/ImageSlider";
 import Pagination from "./components/pagination/Pagination";
 import LiveChat from "./components/live-chat/LiveChat";
 import ConfigDrivenForm from "./components/config-driven-ui/ConfigDrivenForm";
+import Theme from "./components/theme/Theme";
 
 // shimmer ui => loading atate while making an api call.
 // instead of showing loading progress bar ,
@@ -37,6 +38,7 @@ function App() {
           <Route path="/pagination" element={<Pagination />} />
           <Route path="/live-chat" element={<LiveChat />} />
           <Route path="/config-driven-ui" element={<ConfigDrivenForm />} />
+          <Route path="/theme" element={<Theme />} />
         </Routes>
       </BrowserRouter>
     </div>
