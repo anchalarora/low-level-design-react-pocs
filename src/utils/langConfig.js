@@ -2,14 +2,14 @@ export const LANG = {
   en: {
     about: {
       title: "About Us",
-      desc: "We are a community-driven platform dedicated to sharing and enjoying memes from around the world.",
+      desc: "We are a platform dedicated to exploring and implementing low-level design concepts through practical React Proof-of-Concepts (POCs).",
       whatWeDo:
-        "Our website is dedicated to bringing you the latest and greatest in meme culture. We curate a collection of the funniest memes from various categories, ensuring you always have a good laugh. Join our community of meme lovers and share your favorites!",
+        "Our website focuses on providing hands-on learning through React-based POCs. We develop modular, scalable solutions to help developers understand the core principles of low-level design, including component design, state management, and performance optimization.",
       mission:
-        "We aim to spread joy and laughter through the power of memes. Whether you’re looking for a quick laugh or a way to connect with others, we’ve got you covered!",
-      descriptionTitle: "Description", // New key for section title
-      whatWeDoTitle: "What We Do", // New key for section title
-      missionTitle: "Our Mission", // New key for section title
+        "Our mission is to bridge the gap between theoretical concepts and practical implementation by offering simple yet effective POCs. Whether you're a beginner or an experienced developer, our platform is designed to enhance your understanding of low-level design in React projects.",
+      descriptionTitle: "Project Description",
+      whatWeDoTitle: "What We Offer",
+      missionTitle: "Our Mission",
     },
     contact: {
       title: "Contact Us",
@@ -29,14 +29,14 @@ export const LANG = {
   hi: {
     about: {
       title: "हमारे बारे में",
-      desc: "हम एक सामुदायिक-आधारित प्लेटफ़ॉर्म हैं जो दुनिया भर के मेमों को साझा करने और आनंद लेने के लिए समर्पित है।",
+      desc: "हम व्यावहारिक React प्रमाण अवधारणाओं (POCs) के माध्यम से निम्न-स्तरीय डिज़ाइन अवधारणाओं का अन्वेषण और कार्यान्वयन करने के लिए एक प्लेटफ़ॉर्म हैं।",
       whatWeDo:
-        "हमारी वेबसाइट मेम संस्कृति में नवीनतम और सबसे अच्छे को लाने के लिए समर्पित है। हम विभिन्न श्रेणियों से सबसे मजेदार मेमों का संग्रह तैयार करते हैं, यह सुनिश्चित करते हुए कि आपके पास हमेशा हंसने का एक अच्छा मौका हो। मेम प्रेमियों के हमारे समुदाय में शामिल हों और अपने पसंदीदा साझा करें!",
+        "हमारी वेबसाइट व्यावहारिक सीखने पर केंद्रित है, जो React आधारित POCs के माध्यम से सीखने के अनुभव को और बेहतर बनाती है। हम निम्न-स्तरीय डिज़ाइन के मुख्य सिद्धांतों को समझने के लिए मॉड्यूलर और स्केलेबल समाधान विकसित करते हैं, जिसमें घटक डिज़ाइन, राज्य प्रबंधन और प्रदर्शन अनुकूलन शामिल हैं।",
       mission:
-        "हम मेमों की शक्ति के माध्यम से खुशी और हंसी फैलाने का लक्ष्य रखते हैं। चाहे आप त्वरित हंसी की तलाश कर रहे हों या दूसरों के साथ जुड़ने का एक तरीका, हम आपके लिए तैयार हैं!",
-      descriptionTitle: "विवरण", // New key for section title
-      whatWeDoTitle: "हम क्या करते हैं", // New key for section title
-      missionTitle: "हमारा मिशन", // New key for section title
+        "हमारा मिशन सैद्धांतिक अवधारणाओं और व्यावहारिक कार्यान्वयन के बीच की खाई को पाटना है, सरल और प्रभावी POCs के माध्यम से। चाहे आप एक शुरुआती हों या एक अनुभवी डेवलपर, हमारा प्लेटफार्म आपके React परियोजनाओं में निम्न-स्तरीय डिज़ाइन को बेहतर ढंग से समझने के लिए बनाया गया है।",
+      descriptionTitle: "परियोजना का विवरण",
+      whatWeDoTitle: "हम क्या पेशकश करते हैं",
+      missionTitle: "हमारा मिशन",
     },
     contact: {
       title: "हमसे संपर्क करें",
@@ -56,14 +56,14 @@ export const LANG = {
   sp: {
     about: {
       title: "Acerca de nosotros",
-      desc: "Somos una plataforma impulsada por la comunidad dedicada a compartir y disfrutar memes de todo el mundo.",
+      desc: "Somos una plataforma dedicada a explorar y aplicar conceptos de diseño de bajo nivel a través de pruebas de concepto (POCs) prácticas en React.",
       whatWeDo:
-        "Nuestro sitio web está dedicado a traerte lo último y lo mejor en la cultura de los memes. Curamos una colección de los memes más divertidos de varias categorías, asegurándonos de que siempre tengas una buena risa. ¡Únete a nuestra comunidad de amantes de los memes y comparte tus favoritos!",
+        "Nuestro sitio web se enfoca en el aprendizaje práctico a través de POCs basados en React. Desarrollamos soluciones modulares y escalables para ayudar a los desarrolladores a comprender los principios fundamentales del diseño de bajo nivel, incluidos el diseño de componentes, la gestión del estado y la optimización del rendimiento.",
       mission:
-        "Nuestro objetivo es difundir alegría y risas a través del poder de los memes. Ya sea que estés buscando una risa rápida o una forma de conectar con otros, ¡te tenemos cubierto!",
-      descriptionTitle: "Descripción", // New key for section title
-      whatWeDoTitle: "Lo que hacemos", // New key for section title
-      missionTitle: "Nuestra Misión", // New key for section title
+        "Nuestra misión es cerrar la brecha entre los conceptos teóricos y la implementación práctica ofreciendo POCs simples pero efectivos. Ya seas un principiante o un desarrollador experimentado, nuestra plataforma está diseñada para mejorar tu comprensión del diseño de bajo nivel en proyectos React.",
+      descriptionTitle: "Descripción del Proyecto",
+      whatWeDoTitle: "Lo que ofrecemos",
+      missionTitle: "Nuestra Misión",
     },
     contact: {
       title: "Contáctenos",
