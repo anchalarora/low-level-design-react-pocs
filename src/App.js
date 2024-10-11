@@ -18,6 +18,7 @@ import CountDownTimer from "./components/count-down-timer/CountDownTimer";
 import FrequentlyAskedQues from "./components/faq/FrequentlyAskedQues";
 import InfiniteScroll from "./components/infinite-scroll/Body";
 import MortgageCalculator from "./components/mortgageCalc/MortgageCalculator";
+import CustomModelOverlay from "./components/custom-model-overlay/CustomModelOverlay";
 
 // shimmer ui => loading atate while making an api call.
 // instead of showing loading progress bar ,
@@ -47,6 +48,7 @@ function App() {
           <Route path="/faq" element={<FrequentlyAskedQues />} />
           <Route path="/infinite-scroll" element={<InfiniteScroll />} />
           <Route path="/mortgage-calc" element={<MortgageCalculator />} />
+          <Route path="/custom-overlay" element={<CustomModelOverlay />} />
         </Routes>
       </BrowserRouter>
     </div>

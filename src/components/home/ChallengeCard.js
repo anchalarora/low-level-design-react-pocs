@@ -43,6 +43,9 @@ const ChallengeCard = ({ challenge }) => {
       case "Mortgage Calculator":
         navigate("/mortgage-calc");
         break;
+      case "Custom Modal Overlay":
+        navigate("/custom-overlay");
+        break;
     }
   };
 
