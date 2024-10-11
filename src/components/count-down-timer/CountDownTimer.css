@@ -1,0 +1,49 @@
+.count-down-container {
+  background-color: gray;
+  width: 400px;
+  margin: auto;
+  padding: 40px;
+}
+
+.input-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-box > input {
+  height: 50px;
+  width: 50px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.timer-button {
+  height: 40px;
+  width: 100px;
+  border: none;
+  outline: none;
+  background-color: purple;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+.timer-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
