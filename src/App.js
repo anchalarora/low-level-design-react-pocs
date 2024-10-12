@@ -17,7 +17,7 @@ import Theme from "./components/theme/Theme";
 import CountDownTimer from "./components/count-down-timer/CountDownTimer";
 import FrequentlyAskedQues from "./components/faq/FrequentlyAskedQues";
 import InfiniteScroll from "./components/infinite-scroll/Body";
-import MortgageCalculator from "./components/mortgageCalc/MortgageCalculator";
+import MortgageCalculator from "./components/mortgage-calc/MortgageCalculator";
 import CustomModelOverlay from "./components/custom-model-overlay/CustomModelOverlay";
 
 // shimmer ui => loading atate while making an api call.
