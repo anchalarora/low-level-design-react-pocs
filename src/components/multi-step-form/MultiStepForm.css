@@ -1,0 +1,40 @@
+.app {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.container {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+.form-label {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.form-input {
+  height: 30px;
+  font-size: 20px;
+  padding: 7px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+.form-button {
+  width: 120px;
+  height: 45px;
+  border: none;
+  font-size: 20px;
+  background-color: purple;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+}

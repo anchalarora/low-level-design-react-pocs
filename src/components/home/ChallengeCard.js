@@ -46,6 +46,9 @@ const ChallengeCard = ({ challenge }) => {
       case "Custom Modal Overlay":
         navigate("/custom-overlay");
         break;
+      case "Multi Step Form":
+        navigate("/multi-step-form");
+        break;
     }
   };
 
