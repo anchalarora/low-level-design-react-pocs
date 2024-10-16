@@ -1,0 +1,78 @@
+.container {
+  width: 600px;
+  margin: 50px auto;
+  padding: 50px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.input-container {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.input-box {
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid #ccc;
+}
+
+.shopping-list {
+  width: 100%;
+  height: 150px;
+  overflow-y: auto;
+  padding: 10px;
+  background-color: #ccc;
+}
+
+.product {
+  padding: 8px 12px;
+  margin: 8px 0;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.product:hover {
+  background-color: pink;
+}
+
+.bucket-list {
+  width: 300px;
+  margin: 50px auto;
+  overflow-y: auto;
+  height: 300px;
+}
+
+.shopping-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: pink;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-top: 10px;
+}
+
+.bucket-btn {
+  background-color: lightblue;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pinter;
+  width: 40px;
+  height: 40px;
+}
+
+.bucket-btn:hover {
+  background-color: darkgreen;
+  border-radius: 5px;
+}
+
+.strike {
+  text-decoration: line-through;
+  color: black;
+}

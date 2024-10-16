@@ -49,6 +49,9 @@ const ChallengeCard = ({ challenge }) => {
       case "Multi Step Form":
         navigate("/multi-step-form");
         break;
+      case "Auto Suggestion":
+        navigate("/auto-suggestion");
+        break;
     }
   };
 
