@@ -21,6 +21,8 @@ import MortgageCalculator from "./components/mortgage-calc/MortgageCalculator";
 import CustomModelOverlay from "./components/custom-model-overlay/CustomModelOverlay";
 import MultiStepForm from "./components/multi-step-form/MultiStepForm";
 import AutoSuggestion from "./components/auto-suggestion/AutoSuggestion";
+import BarChart from "./components/bar-chart/BarChart";
+import PaginationAndSearch from "./components/pagination-and-search/Pagination";
 
 // shimmer ui => loading atate while making an api call.
 // instead of showing loading progress bar ,
@@ -53,6 +55,11 @@ function App() {
           <Route path="/custom-overlay" element={<CustomModelOverlay />} />
           <Route path="/multi-step-form" element={<MultiStepForm />} />
           <Route path="/auto-suggestion" element={<AutoSuggestion />} />
+          
+          <Route
+            path="/pagination-and-search"
+            element={<PaginationAndSearch />}
+          />
         </Routes>
       </BrowserRouter>
     </div>
