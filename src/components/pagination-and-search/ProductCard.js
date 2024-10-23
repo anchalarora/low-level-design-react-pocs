@@ -1,17 +1,19 @@
+import React from "react";
+
 import "./Pagination.css";
 
-const ProductCard = ({ title, price, discount, description, thumbnail }) => {
-  console.log("thumbnail", thumbnail, description);
+const ProductCard = ({ product }) => {
+  const { title, description, price, thumbnail, discount } = product;
   return (
     <div className="product-card">
       <img src={thumbnail} alt="img"></img>
       <h1 className="product-title">{title}</h1>
       <h2 className="product-price">
-        Rs. ${price} - dicosunt of ${discount}%
+        Rs. ${price} - discount of ${discount}%
       </h2>
       <p className="product-desc">{description}</p>
     </div>
   );
 };
 
-export default ProductCard;
+export default React.memo(ProductCard);
