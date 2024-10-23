@@ -5,53 +5,30 @@ const ChallengeCard = ({ challenge }) => {
   const { title, duration, difficultyLevel, url } = challenge;
   const navigate = useNavigate();
 
+  const navigationMap = {
+    "Infinite Scroll": "/infinite-scroll",
+    Pagination: "/pagination",
+    "Live-chat": "/live-chat",
+    Accordion: "/accordion",
+    Comments: "/comments",
+    "Theme Toggle": "/theme",
+    "Config Driven UI": "/config-driven-ui",
+    "Count Down Timer": "/count-down-timer",
+    FAQs: "/faq",
+    "Image Slider": "/image-slider",
+    "Mortgage Calculator": "/mortgage-calc",
+    "Custom Modal Overlay": "/custom-overlay",
+    "Multi Step Form": "/multi-step-form",
+    "Auto Suggestion": "/auto-suggestion",
+    "Bar Chart": "/bar-chart",
+    "Pagination With Search": "/pagination-and-search",
+  };
+
   const handleCardClick = () => {
-    switch (title) {
-      case "Infinte Scroll":
-        navigate("/");
-        break;
-      case "Pagination":
-        navigate("/pagination");
-        break;
-      case "Live-chat":
-        navigate("/live-chat");
-        break;
-      case "Accordion":
-        navigate("/accordion");
-        break;
-      case "Comments":
-        navigate("/comments");
-        break;
-      case "Theme Toggle":
-        navigate("/theme");
-        break;
-      case "Config Driven UI":
-        navigate("/config-driven-ui");
-        break;
-      case "Count Down Timer":
-        navigate("/count-down-timer");
-        break;
-      case "FAQs":
-        navigate("/faq");
-        break;
-      case "Image Slider":
-        navigate("/image-slider");
-        break;
-      case "Infinite Scroll":
-        navigate("/infinite-scroll");
-        break;
-      case "Mortgage Calculator":
-        navigate("/mortgage-calc");
-        break;
-      case "Custom Modal Overlay":
-        navigate("/custom-overlay");
-        break;
-      case "Multi Step Form":
-        navigate("/multi-step-form");
-        break;
-      case "Auto Suggestion":
-        navigate("/auto-suggestion");
-        break;
+    const route = navigationMap[title]; // Get the corresponding route from the map
+    console.log("route", route);
+    if (route) {
+      navigate(route);
     }
   };
 
