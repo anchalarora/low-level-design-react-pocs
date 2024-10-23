@@ -147,6 +147,7 @@ const AutoSuggestion = () => {
         <input
           className="input-box"
           value={food}
+          placeholder="Enter the item"
           onChange={handleInputChange}
         />
       </div>
