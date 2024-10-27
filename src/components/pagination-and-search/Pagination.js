@@ -17,6 +17,8 @@ const Pagination = () => {
 
   const [inputText, setInputText] = useState();
 
+  const [searchTimeout, setSearchTimeout] = useState(null);
+
   const fetchData = async () => {
     const url = `https://dummyjson.com/products?limit=${limit}&skip=${
       currentPage * limit
@@ -30,9 +32,26 @@ const Pagination = () => {
     setFilteredProducts(data.products);
     setNoOfPages(Math.ceil(data.total / limit));
   };
+  const handleInputSearch = (text) => {
+    if (searchTimeout) clearTimeout(searchTimeout);
+
+    const timeout = setTimeout(() => {
+      if (text.length === 0) {
+        setFilteredProducts(products);
+      } else {
+        const filtered = products.filter((product) =>
+          product.title.toLowerCase().includes(text.toLowerCase())
+        );
+        setFilteredProducts(filtered);
+      }
+    }, 300); // Adjust delay as needed (300ms is common)
+
+    setSearchTimeout(timeout);
+  };
 
   const handleInputChange = (e) => {
     setInputText(e.target.value);
+    handleInputSearch(e.target.value);
   };
 
   useEffect(() => {
