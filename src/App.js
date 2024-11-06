@@ -22,6 +22,8 @@ import CustomModelOverlay from "./components/custom-model-overlay/CustomModelOve
 import MultiStepForm from "./components/multi-step-form/MultiStepForm";
 import AutoSuggestion from "./components/auto-suggestion/AutoSuggestion";
 import PaginationAndSearch from "./components/pagination-and-search/Pagination";
+import MyPagination from "./components/myPagination/MyPagination";
+import BarChart from "./components/bar-chart/BarChart";
 
 // shimmer ui => loading atate while making an api call.
 // instead of showing loading progress bar ,
@@ -58,6 +60,8 @@ function App() {
             path="/pagination-and-search"
             element={<PaginationAndSearch />}
           />
+          <Route path="/mypagination" element={<MyPagination />} />
+          <Route path="/bar-chart" element={<BarChart />} />
         </Routes>
       </BrowserRouter>
     </div>

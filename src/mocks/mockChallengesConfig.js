@@ -97,4 +97,10 @@ export const challengesData = [
     difficultyLevel: "Medium",
     url: "https://cdn.prod.website-files.com/606170e8343bd733785eeea3/61d206ca94fc0869263ac998_developmen%20plan%20theme.png",
   },
+  {
+    title: "MyPagination",
+    duration: "45 minutes",
+    difficultyLevel: "Medium",
+    url: "https://cdn.prod.website-files.com/606170e8343bd733785eeea3/61d206ca94fc0869263ac998_developmen%20plan%20theme.png",
+  },
 ];

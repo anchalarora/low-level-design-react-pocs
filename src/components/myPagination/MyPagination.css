@@ -1,0 +1,33 @@
+.product-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-direction: row;
+  margin: auto;
+}
+
+.product-card {
+  width: 300px;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.each-page-no {
+  font: lighter;
+  font-size: small;
+  cursor: pointer;
+}
+
+.page-no-selected {
+  font: bold;
+  font-size: large;
+  text-decoration: underline;
+}

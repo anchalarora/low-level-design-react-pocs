@@ -22,6 +22,7 @@ const ChallengeCard = ({ challenge }) => {
     "Auto Suggestion": "/auto-suggestion",
     "Bar Chart": "/bar-chart",
     "Pagination With Search": "/pagination-and-search",
+    MyPagination: "/mypagination",
   };
 
   const handleCardClick = () => {

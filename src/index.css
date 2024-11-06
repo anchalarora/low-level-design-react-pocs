@@ -26,12 +26,9 @@ code {
   margin-right: 16px;
 }
 
-.any-form {
-  max-width: 400px; /* Adjust width as needed */
-  margin: 0 auto; /* Center the form */
-}
-
 form {
+  max-width: 400px; /* Adjust width as needed */
+  margin: 0 auto;
   display: flex;
   flex-direction: column; /* Stack elements vertically */
   gap: 15px; /* Space between form elements */
